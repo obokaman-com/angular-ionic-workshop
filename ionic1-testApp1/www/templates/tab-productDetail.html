@@ -1,0 +1,7 @@
+<ion-view view-title="{{ product.name }}">
+    <ion-content>
+        <img ng-src="{{product.image_thumbnail}}">
+        <h1>{{product.name}}</h1>
+        <p>{{product.price | currency : '€' }}</p>
+    </ion-content>
+</ion-view>
